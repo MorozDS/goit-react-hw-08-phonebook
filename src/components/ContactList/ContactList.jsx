@@ -1,8 +1,8 @@
 import s from './ContactList.module.css';
 import { useSelector, useDispatch } from 'react-redux';
 
-import { deleteContact } from 'redux/operations';
-import { renderContactList } from 'redux/selectors';
+import { deleteContact } from 'redux/contacts/operations';
+import { renderContactList } from 'redux/contacts/selectors';
 
 export default function ContactList() {
   const dispatch = useDispatch();
