@@ -51,7 +51,7 @@ export default function ContactForm() {
           required
           onChange={handleInputChange}
           value={name}
-          placeholder=" Your Name"
+          placeholder="Name"
           className={s.input}
         />
       </div>
@@ -65,7 +65,7 @@ export default function ContactForm() {
           required
           onChange={handleInputChange}
           value={phone}
-          placeholder=""
+          placeholder="Phone Number"
           className={s.input}
         />
       </div>
