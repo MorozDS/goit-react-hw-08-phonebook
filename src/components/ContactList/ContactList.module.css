@@ -33,3 +33,9 @@
 .button:active {
   background-color: #500000;
 }
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

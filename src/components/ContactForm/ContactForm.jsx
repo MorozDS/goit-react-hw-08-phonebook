@@ -26,7 +26,7 @@ export default function ContactForm() {
 
   const handleSubmit = event => {
     event.preventDefault();
-    const contact = { name: name, phone: phone };
+    const contact = { name: name, number: phone };
 
     if (
       contacts.find(

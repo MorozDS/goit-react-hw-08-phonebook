@@ -11,14 +11,16 @@ export default function FilterContact() {
 
   return (
     <>
-      <p className={s.filterheader}>Find contacts by name</p>
-      <input
-        type="text"
-        name="filter"
-        onChange={onChange}
-        value={filter}
-        className={s.input}
-      />
+      <div className={s.wrap}>
+        <p className={s.filterheader}>Find contacts by name</p>
+        <input
+          type="text"
+          name="filter"
+          onChange={onChange}
+          value={filter}
+          className={s.input}
+        />
+      </div>
     </>
   );
 }
