@@ -12,7 +12,7 @@ export default function ContactList() {
     <ul className={s.list}>
       {filteredContacts.map(contact => (
         <li key={contact.id} id={contact.id} className={s.item}>
-          {contact.name}: {contact.phone}
+          {contact.name}: {contact.number}
           <button
             type="button"
             onClick={() => dispatch(deleteContact(contact.id))}
